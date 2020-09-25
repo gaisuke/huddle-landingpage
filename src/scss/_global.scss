@@ -2,3 +2,59 @@
     font-size: 16px;
     font-family: $poppins;
 }
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: $violet;
+    background-image: url('/img/bg-desktop.svg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 6rem;
+}
+header {
+    margin-bottom: 20px;
+    
+}
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .main__left {
+        width: 100%;
+        img {
+            width: 500px;
+        }
+    }
+    .main__right {
+        padding: 20px;
+        color: #ffffff;
+        .text {
+            width: 100%;
+            .paragraph {
+                margin-bottom: 40px;
+                font-family: $opens;
+            }
+        }
+        .cta {
+            width: 180px;
+            height: 45px;
+            button {
+                width: 100%;
+                height: 100%;
+                border-radius: 50px;
+                font-family: $poppins;
+                font-weight: 700;
+                color: $violet;
+            }
+        }
+    }
+}
+footer {
+    .socmed {
+        // background-color: #fff;
+        float: right;
+    }
+}
