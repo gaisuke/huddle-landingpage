@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: none; }
+
+body {
+  background-color: #674baf;
+  background-image: url("/bg-desktop.53c45bb0.svg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 6rem; }
+
+header {
+  margin-bottom: 20px; }
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  main .main__left {
+    width: 100%; }
+    main .main__left img {
+      width: 500px; }
+  main .main__right {
+    padding: 20px;
+    color: #ffffff; }
+    main .main__right .text {
+      width: 100%; }
+      main .main__right .text .paragraph {
+        margin-bottom: 40px;
+        font-family: "Open Sans", sans-serif; }
+    main .main__right .cta {
+      width: 180px;
+      height: 45px; }
+      main .main__right .cta button {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        color: #674baf; }
+
+footer .socmed {
+  float: right; }
+
+
+/*# sourceMappingURL=/styles.5c8f3eab.css.map */

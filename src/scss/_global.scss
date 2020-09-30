@@ -4,6 +4,8 @@
 }
 * {
     box-sizing: border-box;
+    padding: 0;
+    border: none;
 }
 body {
     background-color: $violet;
@@ -22,6 +24,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
     .main__left {
         width: 100%;
         img {
