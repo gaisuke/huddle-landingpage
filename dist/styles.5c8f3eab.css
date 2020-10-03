@@ -17,36 +17,53 @@ body {
   background-size: cover;
   margin: 0;
   padding: 6rem; }
+  @media screen and (max-width: 375px) {
+    body {
+      align-items: center; } }
 
 header {
   margin-bottom: 20px; }
 
-main {
+.main {
   display: flex;
   flex-direction: row;
   align-items: center; }
-  main .main__left {
+  .main .main__left {
     width: 100%; }
-    main .main__left img {
+    .main .main__left img {
       width: 500px; }
-  main .main__right {
+  .main .main__right {
     padding: 20px;
     color: #ffffff; }
-    main .main__right .text {
+    .main .main__right .text {
       width: 100%; }
-      main .main__right .text .paragraph {
+      .main .main__right .text .paragraph {
         margin-bottom: 40px;
         font-family: "Open Sans", sans-serif; }
-    main .main__right .cta {
+    .main .main__right .cta {
       width: 180px;
       height: 45px; }
-      main .main__right .cta button {
+      .main .main__right .cta button {
         width: 100%;
         height: 100%;
         border-radius: 50px;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         color: #674baf; }
+  @media screen and (max-width: 375px) {
+    .main {
+      display: flex;
+      flex-direction: column; }
+      .main__left {
+        width: 80%; }
+        .main__left img {
+          width: 175px; }
+      .main__right .text {
+        text-align: center; }
+        .main__right .text .title h1 {
+          font-size: 2rem; }
+        .main__right .text .paragraph {
+          font-size: 0.8rem; } }
 
 footer .socmed {
   float: right; }

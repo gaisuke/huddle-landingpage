@@ -15,12 +15,15 @@ body {
     background-size: cover;
     margin: 0;
     padding: 6rem;
+    @media screen and (max-width: 375px) {
+        align-items: center;
+    }
 }
 header {
     margin-bottom: 20px;
     
 }
-main {
+.main {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,6 +54,29 @@ main {
                 font-family: $poppins;
                 font-weight: 700;
                 color: $violet;
+            }
+        }
+    }
+    @media screen and (max-width: 375px){
+        display: flex;
+        flex-direction: column;
+        &__left {
+            width: 80%;
+            img {
+                width: 175px;
+            }
+        }
+        &__right {
+            .text {
+                text-align: center;
+                .title {
+                    h1 {
+                        font-size: 2rem;
+                    }
+                }
+                .paragraph {
+                    font-size: 0.8rem;
+                }
             }
         }
     }
